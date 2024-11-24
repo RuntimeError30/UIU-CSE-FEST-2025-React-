@@ -1,4 +1,6 @@
 import React, { useRef, useState } from 'react'
+import Button from './Button'
+import { TiLocationArrow } from 'react-icons/ti'
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(1)
@@ -51,13 +53,29 @@ const Hero = () => {
 
         <video
           src={getVideoSource(currentIndex === totalVideos - 1 ? 1 : currentIndex)}
-          autoPlay
+          // autoPlay
           loop
           muted
           className='absolute left-0 top-0 size-full object-cover object-center'
           onLoadedData={handleVideoLoad}
         />
       </div>
+
+      <h1 className='special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75'>
+        2<b>0</b>25
+      </h1>
+
+      <div className='absolute left-0 top-0 z-40'>
+        <div className='mt-24 px-5 sm:px-10'>
+          <h1 className='special-font hero-heading text-blue-100'>uiu cs<b>e</b> f<b>e</b>st</h1>
+          
+          <p className='mb-5 max-w-64 font-robert-regular text-blue-100'>Welcome to the CSE FEST 2025 <br />Break the barrier and unleash</p>
+
+          <Button id='watch-promo' title='Watch Promo' leftIcon={<TiLocationArrow />} containerClass='bg-yellow-300 flex-center gap-1' />
+        </div>
+
+      </div>
+
     </div>
   )
 }
