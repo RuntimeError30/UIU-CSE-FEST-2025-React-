@@ -33,7 +33,7 @@ const About = () => {
           <div className='relative mb-8 mt-36 flex flex-col items-center gap-5'>
               <h2 className='font-general  uppercase md:text-[10px]'>welcome to the</h2>
 
-              <AnimatedTitle />
+              <AnimatedTitle title="UIU <b>CSE</b> FEST 2<b>0</b>25" containerClass="mt-5 !text-black text-center" />
 
 
 
