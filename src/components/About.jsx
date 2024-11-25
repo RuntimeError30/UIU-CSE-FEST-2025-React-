@@ -34,6 +34,11 @@ const About = () => {
               <h2 className='font-general  uppercase md:text-[10px]'>welcome to the</h2>
 
               <AnimatedTitle title="UIU <b>CSE</b> FEST 2<b>0</b>25" containerClass="mt-5 !text-black text-" />
+              <div className='flex space-x-5 flex-wrap items-center align-middle text-center justify-center'>
+                  <h1 className='text-xl uppercase'>January <span className='text-4xl font-bold text-[#ff4701]'>17-18</span>, 2025 </h1>
+                  <h1>|</h1>
+                  <h1>Prizepool: <span className='text-3xl font-bold uppercase text-[#ff4701]'>11 lacs</span> BDT</h1>
+              </div>
 
 
 

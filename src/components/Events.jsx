@@ -46,7 +46,7 @@ const BentoCard = ({ src, title, description, category, eventLink }) => {
                 loop
                 autoPlay
                 muted
-                className="absolute inset-0 h-full w-full object-cover"
+                className="absolute opacity-30 inset-0 h-full w-full object-cover"
             />
             <div className="relative z-10 flex h-full flex-col justify-between p-5 text-blue-50">
                 <h1 className="bento-title special-font">{title}</h1>
@@ -63,12 +63,12 @@ const BentoCard = ({ src, title, description, category, eventLink }) => {
                         </p>
                     </div>
                 )}
-                <div className="mt-5 flex justify-center">
+                <div className=" flex justify-center">
                     <Link to={eventLink}>
                         <Button
                             title="Event Information"
                             leftIcon={<TiLocationArrow />}
-                            containerClass="bg-[#ff4701] px-4 py-2 rounded text-white text-xs md:text-sm"
+                            containerClass="bg-[#ff4701] flex px-4 py-2 rounded text-white text-xs md:text-sm"
                         />
                     </Link>
                 </div>
@@ -107,7 +107,7 @@ const Events = () => {
                     />
                 </BentoTilt>
 
-                <div className="grid h-[160vh] w-full grid-cols-2 grid-rows-3 gap-7">
+                <div className="grid h-[180vh] w-[100%] grid-cols-2 grid-rows-3 gap-7">
                     <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
                         <BentoCard
                             src="videos/feature-3.mp4"
@@ -123,7 +123,7 @@ const Events = () => {
                         />
                     </BentoTilt>
 
-                    <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+                    <BentoTilt className="bento-tilt_1 w-full me-14 md:col-span-1 md:me-0">
                         <BentoCard
                             src="videos/feature-4.mp4"
                             title={<>ICT Olympiad</>}
@@ -133,7 +133,7 @@ const Events = () => {
                         />
                     </BentoTilt>
 
-                    <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+                    <BentoTilt className="bento-tilt_1 w-full me-14 md:col-span-1 md:me-0">
                         <BentoCard
                             src="videos/feature-2.mp4"
                             title={<>Project Show</>}
