@@ -13,7 +13,9 @@ body {
 ::-webkit-scrollbar{
   display: none;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 @layer base {
   @font-face {
     font-family: "circular-web";
