@@ -1,4 +1,7 @@
 import React, { useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
+import Button from "./Button";
+import { TiLocationArrow } from "react-icons/ti";
 
 const BentoTilt = ({ children, className = '' }) => {
     const [transformStyle, setTransformStyle] = useState('');
@@ -11,8 +14,8 @@ const BentoTilt = ({ children, className = '' }) => {
         const relativeX = (e.clientX - left) / width;
         const relativeY = (e.clientY - top) / height;
 
-        const tiltX = (relativeY - 0.5) * 12; // Adjust tiltX
-        const tiltY = (relativeX - 0.5) * -12; // Adjust tiltY
+        const tiltX = (relativeY - 0.5) * 8; // Adjust tiltX
+        const tiltY = (relativeX - 0.5) * -8; // Adjust tiltY
 
         const newTransform = `perspective(700px) rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale3d(.95, .95, .95)`;
         setTransformStyle(newTransform);
@@ -35,7 +38,7 @@ const BentoTilt = ({ children, className = '' }) => {
     );
 };
 
-const BentoCard = ({ src, title, description, category }) => {
+const BentoCard = ({ src, title, description, category, eventLink }) => {
     return (
         <div className="relative size-full">
             <video
@@ -60,6 +63,16 @@ const BentoCard = ({ src, title, description, category }) => {
                         </p>
                     </div>
                 )}
+                <div className="mt-5">
+                    <Link to={eventLink}>
+                                    <Button
+             
+              title="Enevt Infortamtions"
+              leftIcon={<TiLocationArrow />}
+              containerClass="bg-[#ff4701] flex-center gap-1"
+            />
+                    </Link>
+                </div>
             </div>
         </div>
     );
@@ -89,6 +102,7 @@ const Events = () => {
                         }
                         description=" "
                         category="University"
+                        eventLink="/iupc"
                     />
                 </BentoTilt>
 
@@ -104,6 +118,7 @@ const Events = () => {
                             }
                             description=" "
                             category="University"
+                            eventLink="/blockchain"
                         />
                     </BentoTilt>
 
@@ -113,14 +128,17 @@ const Events = () => {
                             title={<>ICT Olympiad</>}
                             description=" "
                             category="College"
+                            eventLink="/ict-olympiad"
                         />
                     </BentoTilt>
+
                     <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
                         <BentoCard
                             src="videos/feature-2.mp4"
                             title={<>Project Show</>}
                             description=" "
                             category="University"
+                            eventLink="/project-show"
                         />
                     </BentoTilt>
 
@@ -130,14 +148,17 @@ const Events = () => {
                             title={<>LFR-TrackBots</>}
                             description=" "
                             category="College & University"
+                            eventLink="/lfr"
                         />
                     </BentoTilt>
+
                     <BentoTilt className="bento-tilt_1">
                         <BentoCard
                             src="videos/feature-1.mp4"
                             title={<>ROBO SOCCER-Whistle Mania</>}
                             description=" "
                             category="College & University"
+                            eventLink="/soccer-bot"
                         />
                     </BentoTilt>
                 </div>

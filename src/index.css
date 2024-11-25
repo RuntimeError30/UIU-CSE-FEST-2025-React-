@@ -10,6 +10,9 @@ body {
   background-color: #dfdff0;
   font-family: "General Sans", sans-serif;
 }
+::-webkit-scrollbar{
+  display: none;
+}
 
 @layer base {
   @font-face {
@@ -172,7 +175,7 @@ body {
 .three-body {
   --uib-size: 35px;
   --uib-speed: 0.8s;
-  --uib-color: #5d3fd3;
+  --uib-color: #ff4701;
   position: relative;
   display: inline-block;
   height: var(--uib-size);

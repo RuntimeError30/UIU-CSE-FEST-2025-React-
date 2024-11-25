@@ -81,7 +81,7 @@ const Hero = () => {
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
       {isLoading && (
-        <div className="absolute flex-center z-[100] h-dvh w-screen overflow-hidden bg-violet-50">
+        <div className="absolute flex-center z-[100] h-dvh w-screen overflow-hidden bg-blue-50">
           <div className="three-body">
             <div className="three-body__dot" />
             <div className="three-body__dot" />
@@ -144,15 +144,15 @@ const Hero = () => {
             </h1>
 
             <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
-              Welcome to the CSE FEST 2025 <br />
-              Break the barrier and unleash
+              Welcome to the official website of<br />
+              CSE FEST 2025 
             </p>
 
             <Button
               id="watch-promo"
               title="Watch Promo"
               leftIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-300 flex-center gap-1"
+              containerClass="bg-[#ff4701] flex-center gap-1"
             />
           </div>
         </div>
