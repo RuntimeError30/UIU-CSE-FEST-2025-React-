@@ -2,7 +2,7 @@ import React from 'react'
 
 const Announcements = () => {
   return (
-      <div id='announcements' className='w-full px-20 mt-40 min-h-screen'>
+      <div id='announcements' className='w-full px-10 mt-40 min-h-screen'>
           <div className='text-start'>
                 <h1 className='font-general text-xs mb-3'>uiu cse fest 2025</h1>
                 <h1 className='bento-title special-font text-4xl'> Announcements</h1>

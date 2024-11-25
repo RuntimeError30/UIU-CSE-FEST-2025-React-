@@ -8,7 +8,7 @@ const ICTolym = () => {
           <h1 className="text-3xl md:text-4xl font-bold text-orange-600">
             ICT Olympiad 2025
           </h1>
-          <p className="text-lg text-gray-600 mt-2">University</p>
+          <p className="text-lg text-gray-600 mt-2">College</p>
           <p className="text-lg font-semibold text-gray-700 mt-2">
             Last Registration: Nov. 30, 2024
           </p>

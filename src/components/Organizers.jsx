@@ -8,7 +8,7 @@ const Organizers = () => {
         UIU CSE FEST
       </h1>
       <h1 className="bento-title special-font text-4xl sm:text-2xl md:text-3xl lg:text-4xl text-center mt-2">
-        Event Organizers
+        <b>E</b>vent <b>O</b>rganizers
       </h1>
 
       {/* Organized By Section */}

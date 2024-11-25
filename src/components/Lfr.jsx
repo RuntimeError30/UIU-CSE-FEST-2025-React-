@@ -8,6 +8,9 @@ const Lfr = () => {
           <h1 className="text-3xl md:text-4xl font-bold text-orange-600">
             UIU CSE Fest 2025 - TrackBots (LFR Competition)
           </h1>
+          <p className="text-lg font-semibold text-gray-700 mt-2">
+           College & University
+          </p>
           
           <p className="text-lg font-semibold text-gray-700 mt-2">
             Registration Deadline: December 15, 2024
@@ -25,7 +28,7 @@ const Lfr = () => {
           <h2 className="text-xl font-semibold text-orange-600">Registration Procedure</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
             <li><strong>Registration Deadline:</strong> December 15, 2024</li>
-            <li><strong>Eligibility:</strong> Open to all undergraduate students from public/private universities in Bangladesh</li>
+            <li><strong>Eligibility:</strong> Open to all undergraduate students from public/private universities and college students in Bangladesh</li>
             <li><strong>Registration Fee:</strong> 1500 BDT per team</li>
             <li><strong>Team Formation:</strong> Teams of up to 5 members; each participant can only join one team in the same segment</li>
           </ul>
