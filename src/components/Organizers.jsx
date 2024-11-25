@@ -2,7 +2,7 @@ import React from 'react';
 
 const Organizers = () => {
   return (
-    <div className="w-full grid justify-center items-center bg-black text-blue-50 p-6">
+    <div className="w-full pt-20 grid justify-center items-center bg-black text-blue-50 p-6 pb-40">
       {/* Title Section */}
       <h1 className="font-general text-xs sm:text-sm md:text-xs lg:text-xs text-center">
         UIU CSE FEST
@@ -13,7 +13,7 @@ const Organizers = () => {
 
       {/* Organized By Section */}
       <div className="mt-12 text-center">
-        <h1 className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold">
+        <h1 className="text-xs sm:text-sm md:text-smn lg:text-xs">
           Organized By
         </h1>
         <div className="flex flex-wrap justify-center items-center gap-5 mt-4">
@@ -24,7 +24,7 @@ const Organizers = () => {
 
       {/* Powered By Section */}
       <div className="mt-10 text-center">
-        <h1 className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold">
+        <h1 className="text-xs sm:text-sm md:text-smn lg:text-xs">
           Powered By
         </h1>
         <div className="flex flex-wrap justify-center items-center gap-6 mt-4">

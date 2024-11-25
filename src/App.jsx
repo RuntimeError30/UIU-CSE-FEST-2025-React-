@@ -4,7 +4,8 @@ import About from './components/About'
 import Navbar from './components/Navbar'
 import Events from './components/Events'
 import Organizers from './components/Organizers'
-
+import Announcements from './components/Announcements'
+import { Footer } from './components/Footer'
 
 
 const App = () => {
@@ -14,7 +15,9 @@ const App = () => {
       <Hero />
       <About />
       <Events />
+      <Announcements />
       <Organizers />
+      <Footer />
 
     </main>
   )

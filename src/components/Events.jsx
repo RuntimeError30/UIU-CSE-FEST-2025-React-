@@ -80,7 +80,7 @@ const Events = () => {
 
                 <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
                     <BentoCard
-                        src="videos/feature-1.mp4"
+                        src="videos/feature-6.mp4"
                         title={
                             <>
                                 UIUIUPC - UIU <b>Inter-University</b> Programming
@@ -95,7 +95,7 @@ const Events = () => {
                 <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
                     <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
                         <BentoCard
-                            src="videos/feature-2.mp4"
+                            src="videos/feature-3.mp4"
                             title={
                                 <>
                                     Inter-University <b>Blockchain</b> Olympiad
@@ -109,7 +109,7 @@ const Events = () => {
 
                     <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
                         <BentoCard
-                            src="videos/feature-3.mp4"
+                            src="videos/feature-4.mp4"
                             title={<>ICT Olympiad</>}
                             description=" "
                             category="College"
@@ -117,7 +117,7 @@ const Events = () => {
                     </BentoTilt>
                     <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
                         <BentoCard
-                            src="videos/feature-3.mp4"
+                            src="videos/feature-2.mp4"
                             title={<>Project Show</>}
                             description=" "
                             category="University"
@@ -126,7 +126,7 @@ const Events = () => {
 
                     <BentoTilt className="bento-tilt_1">
                         <BentoCard
-                            src="videos/feature-3.mp4"
+                            src="videos/feature-5.mp4"
                             title={<>LFR-TrackBots</>}
                             description=" "
                             category="College & University"
@@ -134,7 +134,7 @@ const Events = () => {
                     </BentoTilt>
                     <BentoTilt className="bento-tilt_1">
                         <BentoCard
-                            src="videos/feature-3.mp4"
+                            src="videos/feature-1.mp4"
                             title={<>ROBO SOCCER-Whistle Mania</>}
                             description=" "
                             category="College & University"
