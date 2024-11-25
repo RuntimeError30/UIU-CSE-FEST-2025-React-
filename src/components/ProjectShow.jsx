@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const ProjectShow = () => {
   return (
@@ -10,21 +10,21 @@ const ProjectShow = () => {
           </h1>
           <p className="text-lg text-gray-600 mt-2">University Students and Recent Graduates</p>
           <p className="text-lg font-semibold text-gray-700 mt-2">
-            Registration Deadline: November 30, 2024
+            Registration Deadline: 20 December, 2024
           </p>
         </header>
 
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-orange-600">Overview</h2>
           <p className="text-gray-700 mt-4">
-            The UIU CSE Fest 2025 offers university students an exciting opportunity to showcase their innovative software projects. In today’s rapidly evolving world, advancements in information technology play a key role in creating sustainable solutions. This event invites students to present impactful projects that reflect adaptability, creativity, and diverse skill sets. Projects can span various fields in information technology, science, and engineering, and may be developed solely in software or as hybrid systems integrating both software and hardware.
+            The UIU CSE Fest 2025 offers university students an exciting opportunity to showcase their innovative software projects. In today’s rapidly evolving world, advancements in information technology play a key role in creating sustainable solutions. This event invites students to present impactful projects that reflect adaptability, creativity, and diverse skill sets. Projects can span various fields in information technology, science, and engineering, and may be developed solely in software, or as hybrid systems integrating both software and hardware.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-orange-600">Registration</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li><strong>Registration Deadline:</strong> November 30, 2024</li>
+            <li><strong>Registration Deadline:</strong> 20 December 2024</li>
             <li><strong>Eligibility:</strong> Open to university students and recent graduates in Bangladesh (graduated within the past year)</li>
             <li><strong>Registration Fee:</strong> 1500 BDT per team</li>
             <li><strong>Team Formation:</strong> Teams of 3 to 5 members; each participant can only join one team</li>
@@ -45,7 +45,8 @@ const ProjectShow = () => {
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-orange-600">Project Domains</h2>
           <p className="text-gray-700 mt-4">
-            Projects can span the following domains:
+            A fully implemented project with functional features that addresses a specific problem and provides a solution through a practical application.
+            Potential topic areas include, but are not limited to:
           </p>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
             <li>Software Engineering & Programming</li>
@@ -56,24 +57,86 @@ const ProjectShow = () => {
             <li>Machine Learning & Artificial Intelligence</li>
             <li>Hardware, Robotics & Electronics</li>
           </ul>
+          <p className="text-gray-700 mt-4">
+            Each project should demonstrate the complete solution of a real-world issue, including design, development, and testing of the implemented features.
+
+          </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-orange-600">Submission Guidelines</h2>
+          <p className="text-gray-700 mt-4">The project synopsis should be concise, not exceeding 400 words, and include the following elements:</p>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li><strong>Project Synopsis:</strong> Max 400 words with the title, scope, objectives, features, methodology, technology stack, implementation process, limitations, and conclusion.</li>
-            <li><strong>Video Presentation:</strong> A 2-3 minute video highlighting the project’s features, focusing on functionalities and practical applications. Upload the video to YouTube (unlisted) and include the link along with the synopsis.</li>
+            <li><strong>Title:</strong> Clearly state the title of the project.</li>
+            <li><strong>Scope:</strong> Describe the scope and relevance of the project in addressing a real-world problem.</li>
+            <li><strong>Objectives and Motivation:</strong> Outline the main objectives and motivations driving the project.
+            </li>
+            <li><strong>Features:</strong> List the key features of the project, highlighting functionality and user benefits.
+            </li>
+            <li><strong>Methodology:</strong> Provide an overview of the approach or methods used to develop the project.
+
+            </li>
+            <li><strong>Technology Stack:</strong> Mention the hardware and/or software used, detailing any specific tools or technologies.
+
+            </li>
+            <li><strong>Implementation:</strong>  Briefly explain the implementation process and development stages.
+
+            </li>
+            <li><strong>Limitations:</strong>  Discuss any known limitations or constraints of the project.
+
+
+            </li>
+            <li><strong>Conclusion:</strong>  Summarize the project’s overall contribution and potential impact.
+
+
+            </li>
           </ul>
         </section>
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold text-orange-600">Video Presentation:
+          </h2>
+          <p className="text-gray-700 mt-4">
+            Include a 2-3 minute video highlighting the project&apos;s features, focusing on implemented functionalities and practical applications. Upload the video to YouTube as an unlisted video and, if possible, share the link along with the project synopsis for reference.
 
+          </p>
+        </section>
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-orange-600">Judgment Criteria</h2>
-          <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li><strong>Relevance:</strong> The project should have a clear purpose and align with the competition's theme.</li>
-            <li><strong>Creative Ability:</strong> The project should demonstrate innovation, originality, and problem-solving skills.</li>
-            <li><strong>Design and Methodology:</strong> The project should have a well-structured design and methodology.</li>
-            <li><strong>Execution:</strong> All features should be fully implemented and function as intended.</li>
-          </ul>
+          <ol className="list-decimal pl-5 text-gray-700 mt-4">
+            <li>
+              <strong>Relevance:</strong>
+              <ul className="list-disc pl-5 text-gray-700 mt-2">
+                <li>The project should have a clear and focused purpose.</li>
+                <li>It should demonstrate a meaningful contribution to the field of study.</li>
+                <li>The outcomes should align with the competition’s theme and objectives.</li>
+              </ul>
+            </li>
+            <li className="mt-4">
+              <strong>Creative Ability:</strong>
+              <ul className="list-disc pl-5 text-gray-700 mt-2">
+                <li>The project should showcase creativity, innovation, or originality.</li>
+                <li>
+                  Creativity can be demonstrated in problem-solving, design, feature
+                  development, or implementation.
+                </li>
+              </ul>
+            </li>
+            <li className="mt-4">
+              <strong>Design and Methodology:</strong>
+              <ul className="list-disc pl-5 text-gray-700 mt-2">
+                <li>The project should have a well-thought-out design and a structured methodology.</li>
+                <li>The planning, approach, and execution methods should be logical and effective.</li>
+              </ul>
+            </li>
+            <li className="mt-4">
+              <strong>Execution:</strong>
+              <ul className="list-disc pl-5 text-gray-700 mt-2">
+                <li>All main features should be fully implemented and function as intended.</li>
+                <li>The project should demonstrate reliability and ease of use, ensuring smooth operation.</li>
+              </ul>
+            </li>
+          </ol>
+
         </section>
 
         <section className="mb-8">
