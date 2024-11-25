@@ -14,8 +14,8 @@ const BentoTilt = ({ children, className = '' }) => {
         const relativeX = (e.clientX - left) / width;
         const relativeY = (e.clientY - top) / height;
 
-        const tiltX = (relativeY - 0.5) * 8; // Adjust tiltX
-        const tiltY = (relativeX - 0.5) * -8; // Adjust tiltY
+        const tiltX = (relativeY - 0.5) * 8;
+        const tiltY = (relativeX - 0.5) * -8;
 
         const newTransform = `perspective(700px) rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale3d(.95, .95, .95)`;
         setTransformStyle(newTransform);
@@ -40,43 +40,44 @@ const BentoTilt = ({ children, className = '' }) => {
 
 const BentoCard = ({ src, title, description, category, eventLink }) => {
     return (
-        <div className="relative size-full">
+        <div className="relative h-full w-full overflow-visible">
             <video
                 src={src}
                 loop
                 autoPlay
                 muted
-                className="absolute left-0 top-0 size-full object-cover object-center"
+                className="absolute inset-0 h-full w-full object-cover"
             />
-            <div className="relative z-10 flex size-full flex-col justify-between p-5 text-blue-50">
+            <div className="relative z-10 flex h-full flex-col justify-between p-5 text-blue-50">
                 <h1 className="bento-title special-font">{title}</h1>
                 {description && (
-                    <div>
-                        <p className="mt-3 max-w-64 text-xs font-bold md:text-base">
+                    <div className="mt-3">
+                        <p className="text-sm font-bold md:text-base">
                             Category: {category}
                         </p>
-                        <p className="mt-3 max-w-64 text-xs md:text-base">
+                        <p className="mt-2 text-sm md:text-base">
                             {description}
                         </p>
-                        <p className="text-orange-500 mt-10">
+                        <p className="mt-3 text-orange-500">
                             Registration will be open soon
                         </p>
                     </div>
                 )}
-                <div className="mt-5">
+                <div className="mt-5 flex justify-center">
                     <Link to={eventLink}>
-                                    <Button
-             
-              title="Enevt Infortamtions"
-              leftIcon={<TiLocationArrow />}
-              containerClass="bg-[#ff4701] flex-center gap-1"
-            />
+                        <Button
+                            title="Event Information"
+                            leftIcon={<TiLocationArrow />}
+                            containerClass="bg-[#ff4701] px-4 py-2 rounded text-white text-xs md:text-sm"
+                        />
                     </Link>
                 </div>
             </div>
         </div>
     );
 };
+
+
 
 const Events = () => {
     return (
@@ -106,7 +107,7 @@ const Events = () => {
                     />
                 </BentoTilt>
 
-                <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
+                <div className="grid h-[160vh] w-full grid-cols-2 grid-rows-3 gap-7">
                     <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
                         <BentoCard
                             src="videos/feature-3.mp4"
