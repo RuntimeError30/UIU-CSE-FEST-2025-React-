@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const Soccorbot = () => {
   return (
@@ -12,27 +12,29 @@ const Soccorbot = () => {
           <p className="text-lg font-semibold text-gray-700 mt-2">
             College & University
           </p>
-          
+
           <p className="text-lg font-semibold text-gray-700 mt-2">
-            Registration Deadline: December 15, 2024
+            Registration Deadline:27 December, 2024
           </p>
         </header>
 
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-orange-600">Summary</h2>
           <p className="text-gray-700 mt-4">
-            "Whistle Mania!" at UIU CSE Fest 2025 will feature exciting 1v1 robo-soccer matches, where robots take on the role of players! This segment encourages creativity, teamwork, and problem-solving, allowing students to apply their knowledge in a fun and competitive environment.
+            “Whistle Mania!” at UIU CSE Fest 2025 will feature exciting 1v1 robo-soccer matches, where robots take on the role of players! This segment encourages creativity, teamwork, and problem-solving, allowing students to apply their knowledge in a fun and competitive environment.
             To help our students succeed, grooming sessions will be held to support the teams from UIU. These sessions will focus on refining skills, developing strategies, and providing expert guidance, ensuring our students are fully prepared to shine in the “Whistle Mania!” competition.
+
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-orange-600">Registration Procedure</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li><strong>Registration Deadline:</strong> December 15, 2024</li>
+            <li><strong>Registration Deadline:</strong>27 December, 2024</li>
             <li><strong>Eligibility:</strong> All undergraduate program students from public/private universities & college students are eligible to compete!</li>
             <li><strong>Registration Fee:</strong> 2000 BDT per team</li>
-            <li><strong>Team Formation:</strong> Teams of up to 5 members; each participant can only join one team in the same segment</li>
+            <li><strong>Team Formation:</strong>  Teams of up to 5 members; each participant can only join one team of a segment, i.e. a participant cannot be in two teams that are competing in the same segment.
+            </li>
           </ul>
         </section>
 
@@ -83,10 +85,25 @@ const Soccorbot = () => {
             <li>Teams are allowed a maximum of 2 manual restarts.</li>
           </ul>
 
-          <h3 className="font-semibold text-orange-600 mt-4">F. Penalty Rules</h3>
+          <h3 className="font-semibold text-orange-600 mt-4">F. Match Rules</h3>
+          <p className="text-gray-700">Details will be announced later (TBA).</p>
+
+          <h3 className="font-semibold text-orange-600 mt-4">G. Penalty Rules</h3>
           <ul className="list-disc pl-5 text-gray-700">
-            <li>For penalty shots, the ball is placed at center with no defenders allowed at the goal.</li>
+            <li>For penalty shots, the ball is placed at the center with no defenders allowed at the goal.</li>
             <li>A team must push or shoot the ball beyond the centerline within 10 seconds of the whistle, or the shot is canceled.</li>
+          </ul>
+
+          <h3 className="font-semibold text-orange-600 mt-4">H. Tie Breaker Rules</h3>
+          <p className="text-gray-700">Details will be announced later (TBA).</p>
+
+          <h3 className="font-semibold text-orange-600 mt-4">Disqualification Criteria</h3>
+          <ul className="list-disc pl-5 text-gray-700">
+            <li>Disrespectful conduct towards referees, judges, or opposing team members.</li>
+            <li>Violation of security or competition rules.</li>
+            <li>Failure to adhere to all specifications.</li>
+            <li>Use of any weapon or damaging equipment.</li>
+            <li>Failure to comply with technical specifications (e.g., unauthorized robot modifications during play).</li>
           </ul>
         </section>
 
@@ -98,7 +115,18 @@ const Soccorbot = () => {
             <li><strong>Third Prize:</strong> 10,000 BDT</li>
           </ul>
         </section>
-
+        <section className="mb-8">
+          <h3 className="font-semibold text-orange-600 mt-4">Objectives</h3>
+          <ul className="list-disc pl-5 text-gray-700">
+            <li>
+              <span className="font-semibold">Build Teamwork and Strategy Skills:</span> Working in teams to build soccer-playing robots fosters collaboration, strategic planning, and teamwork.
+            </li>
+            <li>
+              <span className="font-semibold">Develop Technical Versatility:</span> Constructing bots for Robo Soccer allows participants to explore motor control, wireless communication, and power management, as they create designs capable of performing dynamic moves on the field.
+            </li>
+            
+          </ul>
+        </section>
         <section className="bg-gray-100 p-6 rounded-xl shadow-inner mt-8">
           <h2 className="text-xl font-semibold text-orange-600">For any queries</h2>
           <p className="text-gray-700 mt-4">
