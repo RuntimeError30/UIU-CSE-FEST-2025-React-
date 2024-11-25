@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const ICTolym = () => {
   return (
@@ -10,21 +10,23 @@ const ICTolym = () => {
           </h1>
           <p className="text-lg text-gray-600 mt-2">College</p>
           <p className="text-lg font-semibold text-gray-700 mt-2">
-            Last Registration: Nov. 30, 2024
+            Last Registration:  27 December, 2024
           </p>
         </header>
 
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-orange-600">Overview</h2>
           <p className="text-gray-700 mt-4">
-            The ICT Olympiad offers a unique opportunity for college students to enhance their knowledge and appreciation of Information and Communication Technology (ICT). The primary goal is to spark a passion for science and technology among young minds, motivating them to excel in the field. This competition is designed to cultivate curiosity, creativity, and provide an engaging and interactive experience that encourages students to discover the vast potential within ICT.
+
+            The <strong> ICT Olympiad</strong> offers a unique opportunity for college students to enhance their knowledge and appreciation of Information and Communication Technology (ICT). The primary goal is to spark a passion for science and technology among young minds, motivating them to excel in the field. This competition is designed to cultivate curiosity, and creativity, providing an engaging and interactive experience that encourages students to discover the vast potential within ICT.
+
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-orange-600">Registration</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li><strong>Registration Deadline:</strong> November 30, 2024</li>
+            <li><strong>Registration Deadline:</strong> 27 December 2024</li>
             <li><strong>Eligibility:</strong> College students</li>
             <li><strong>Registration Fee:</strong> 200 BDT</li>
           </ul>
@@ -76,7 +78,7 @@ const ICTolym = () => {
             +8801754281079<br />
             <a href="mailto:masudbuiyan50@gmail.com" className="text-orange-500">masudbuiyan50@gmail.com</a>
           </p>
-          
+
           <p className="text-gray-700 mt-6">
             <strong>S. M. Nayemur Rahman</strong><br />
             Co-Head of PR<br />
