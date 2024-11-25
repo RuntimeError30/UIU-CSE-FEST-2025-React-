@@ -17,7 +17,8 @@ const Blockchain = () => {
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-orange-600">About the Event</h2>
           <p className="text-gray-700 mt-4">
-            The Department of Computer Science and Engineering (CSE) at United International University proudly presents the inaugural Inter-University Blockchain Olympiad 2025! This landmark event, scheduled for January 18, 2025, aims to bring together talented undergraduate students from across Bangladesh, providing a platform to showcase groundbreaking ideas in blockchain technology—a rapidly evolving and transformative field.
+          The Department of Computer Science and Engineering (CSE) at United International University proudly presents the inaugural <strong>Inter-University Blockchain Olympiad 2025!</strong> This landmark event, scheduled for <strong>January 18, 2025</strong>, aims to bring together talented undergraduate students from across Bangladesh, providing a platform to showcase groundbreaking ideas in blockchain technology—a rapidly evolving and transformative field.
+
           </p>
         </section>
 
@@ -59,7 +60,8 @@ const Blockchain = () => {
             <li><strong>Pitch Deck + Poster:</strong> 30%</li>
             <li><strong>Pitch Presentation:</strong> 20% (10-minute max)</li>
             <li><strong>Q&A Session:</strong> 20%</li>
-            <li><strong>Prototype (Optional):</strong> Required for Best Prototype Award. Evaluated on proof of concept for backend and frontend functionalities.</li>
+            <li><strong>Prototype (Optional):</strong> Required for those competing for the Best Prototype Award. The prototype will be evaluated based on proof of concept for backend and frontend functionalities.
+            </li>
           </ul>
         </section>
 
@@ -81,7 +83,7 @@ const Blockchain = () => {
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-orange-600">Join Us in Making History!</h2>
           <p className="text-gray-700 mt-4">
-            The Inter-University Blockchain Olympiad 2025 is more than a competition—it’s an opportunity to drive innovation and impact within the blockchain field. Register your team, innovate, and compete for prestige, recognition, and exciting cash prizes. Let’s shape the future of technology together!
+          The Inter-University Blockchain Olympiad 2025 is more than a competition—it’s an opportunity to drive innovation and impact within the blockchain field. Register your team, innovate, and compete for prestige, recognition, and exciting cash prizes. Let’s shape the future of technology together!
           </p>
         </section>
 
