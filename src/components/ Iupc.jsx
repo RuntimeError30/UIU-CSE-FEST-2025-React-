@@ -1,11 +1,11 @@
-import React from 'react'
+
 
 const Iupc = () => {
    return (
     <div className="bg-white min-h-screen p-4 text-black">
-      <div className="max-w-7xl mx-auto bg-white p-6 rounded-xl shadow-md">
-        <header className="text-center mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-orange-600">
+      <div className="max-w-7xl mx-auto  bg-white p-6 rounded-xl shadow-md">
+        <header className="text-center mb-8 ">
+          <h1 className="text-3xl  md:text-4xl font-bold text-orange-600">
             UIUIUPC - 1st UIU Inter-University Programming Contest 2025
           </h1>
           <p className="text-lg text-gray-600 mt-2">University</p>

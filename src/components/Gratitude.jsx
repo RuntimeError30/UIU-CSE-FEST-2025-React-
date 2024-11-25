@@ -1,4 +1,4 @@
-import React from 'react';
+
 import TeamMember from '../components/TeamMember';
 
 const Gratitude = () => {
@@ -65,7 +65,7 @@ const Gratitude = () => {
                 name="Shoib Ahmed Shourav"
                 role="Lecturer, Dept of CSE, United International University"
                 subRole="Coordinator of ICT Olympiad and Project Showcasing"
-                imageSrc="/img/shoib_sir.jpeg"
+                imageSrc="/img/shoib_sir.jpg"
               />
               <TeamMember
                 name="Fahim Hafiz"
