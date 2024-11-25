@@ -3,9 +3,9 @@ import TeamMember from '../components/TeamMember';
 
 const Gratitude = () => {
   return (
-    <div className="min-h-screen bg-black text-white font-sans">
+    <div className="min-h-screen  bg-black text-white font-sans">
       <main className="container mx-auto px-4 py-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 text-orange-500">
+        <h1 className="text-4xl md:text-5xl mt-10 font-bold text-center mb-4 text-orange-500">
           Meet Our Amazing Team
         </h1>
         <p className="text-xl text-center mb-12 text-gray-300">
