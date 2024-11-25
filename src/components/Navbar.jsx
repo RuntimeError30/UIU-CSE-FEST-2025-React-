@@ -2,18 +2,22 @@ import gsap from "gsap";
 import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
+import { FiMenu, FiX } from "react-icons/fi";
+import { Link } from "react-router-dom";
+import Button from "./Button";
 
 const Navbar = () => {
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isNavVisible, setIsNavVisible] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navContainerRef = useRef(null);
-  const navItems = ["Home", "About", "Events", "Announcements", "Gratitude"];
+  const navItems = ["About", "Events", "Announcements"];
 
-  const { y: currentScrollY } = useWindowScroll(); // Fixed typo
+  const { y: currentScrollY } = useWindowScroll();
 
   useEffect(() => {
-    if (!navContainerRef.current) return; // Ensure the ref is initialized
+    if (!navContainerRef.current) return;
 
     if (currentScrollY === 0) {
       setIsNavVisible(true);
@@ -30,7 +34,7 @@ const Navbar = () => {
   }, [currentScrollY]);
 
   useEffect(() => {
-    if (!navContainerRef.current) return; // Ensure the ref is initialized
+    if (!navContainerRef.current) return;
 
     gsap.to(navContainerRef.current, {
       y: isNavVisible ? 0 : -100,
@@ -48,24 +52,60 @@ const Navbar = () => {
         <nav className="flex size-full items-center justify-between p-4">
           {/* Logo Section */}
           <div className="flex items-center gap-7">
-            <img src="/img/logo.png" className="w-16" alt="Site Logo" />
+            <Link to="/">
+              <img src="/img/logo.png" className="w-16" alt="Site Logo" />
+            </Link>
+            <Link to="/gratitude">
+              <Button
+                title="Gratitude"
+                leftIcon={<TiLocationArrow />}
+                containerClass="bg-white flex px-3 py-3 rounded-full text-black text-xs md:text-xs items-center"
+              />
+            </Link>
           </div>
 
-          {/* Navigation Items */}
-          <div className="flex h-full items-center">
-            <div className="hidden md:block">
-              {navItems.map((item, index) => (
-                <a
-                  key={index}
-                  href={`#${item.toLowerCase()}`}
-                  className="nav-hover-btn"
-                >
-                  {item}
-                </a>
-              ))}
-            </div>
+          {/* Hamburger Menu */}
+          <div className="md:hidden">
+            <button
+              className="text-xl text-white focus:outline-none"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              {isMenuOpen ? <FiX /> : <FiMenu />}
+            </button>
+          </div>
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:block">
+            {navItems.map((item, index) => (
+              <a
+                key={index}
+                href={`#${item.toLowerCase()}`}
+                className="nav-hover-btn"
+              >
+                {item}
+              </a>
+            ))}
           </div>
         </nav>
+
+        {/* Mobile Navigation */}
+        {isMenuOpen && (
+          <div className="absolute top-16 left-0 right-0 bg-white shadow-md z-40 md:hidden">
+            <ul className="flex flex-col items-center space-y-4 py-4">
+              {navItems.map((item, index) => (
+                <li key={index}>
+                  <a
+                    href={`#${item.toLowerCase()}`}
+                    className="text-black text-sm font-semibold hover:text-blue-600"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </header>
     </div>
   );

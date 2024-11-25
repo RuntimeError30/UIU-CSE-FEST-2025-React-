@@ -15,6 +15,9 @@ import ICTolym from './components/ICTolym';
 import ProjectShow from './components/ProjectShow';
 import Lfr from './components/Lfr';
 import Soccorbot from './components/Soccorbot';
+import Gratitude from './components/Gratitude';
+
+
 
 const App = () => {
   return (
@@ -44,6 +47,7 @@ const App = () => {
         <Route path="/project-show" element={<ProjectShow />} />
         <Route path="/lfr" element={<Lfr />} />
         <Route path="/soccer-bot" element={<Soccorbot />} />
+        <Route path="/gratitude" element={<Gratitude />} />
       </Routes>
     </Router>
   );
