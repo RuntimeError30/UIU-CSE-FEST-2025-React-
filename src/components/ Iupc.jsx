@@ -1,12 +1,12 @@
 
 
 const Iupc = () => {
-   return (
-    <div className="bg-white min-h-screen p-4 text-black">
+  return (
+    <div className="bg-white min-h-screen p-4 pt-14 text-black">
       <div className="max-w-7xl mx-auto  bg-white p-6 rounded-xl shadow-md">
         <header className="text-center mb-8 ">
           <h1 className="text-3xl  md:text-4xl font-bold text-orange-600">
-            UIUIUPC - 1st UIU Inter-University Programming Contest 2025
+            UIUIUPC - UIU <br className="md:hidden"/> Inter-University Programming Contest 2025
           </h1>
           <p className="text-lg text-gray-600 mt-2">University</p>
           <p className="text-lg font-semibold text-gray-700 mt-2">
@@ -17,15 +17,21 @@ const Iupc = () => {
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-orange-600">About the Event</h2>
           <p className="text-gray-700 mt-4">
-            The Department of Computer Science and Engineering (CSE) at United International University (UIU) is thrilled to host the 1st UIU Inter-University Programming Contest 2025, set to take place on January 17-18, 2025! This exciting event will unite talented programmers from universities across Bangladesh, offering a challenging platform to demonstrate their programming and problem-solving prowess. By hosting this prestigious event, UIU aims to foster a strong culture of competitive programming nationwide, inspiring students to excel in this dynamic and impactful field.
+            The Department of Computer Science and Engineering (CSE) at United International University (UIU) is thrilled to host the 1st UIU Inter-University Programming Contest 2025, set to take place on <span className="font-bold">January 17-18, 2025!</span>  This exciting event will unite talented programmers from universities across Bangladesh, offering a challenging platform to demonstrate their programming and problem-solving prowess.
+            <br />
+            <br />
+
+            By hosting this prestigious event, UIU aims to foster a strong culture of competitive programming nationwide, inspiring students to excel in this dynamic and impactful field.
+
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-orange-600">Event Details</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li><strong>Eligibility:</strong> Open to university students and IOI (International Olympiad in Informatics) students.</li>
-            <li><strong>Teams:</strong> 120 teams will compete, with each team comprising 3 students + 1 coach.</li>
+            <li><strong>Eligibility:</strong> Open to university students and IOI (International Olympiad in Informatics) students.
+            </li>
+            <li><strong>Teams:</strong>  120 teams will compete, with each team comprising 3 students + 1 coach.</li>
             <li><strong>Problem Setter:</strong> BAPS – ensuring challenging and insightful problems for participants.</li>
           </ul>
         </section>
@@ -59,7 +65,7 @@ const Iupc = () => {
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-orange-600">Registration Link</h2>
 
-           <h1>Portal will be open Soon</h1>
+          <h1>Portal will be open Soon</h1>
         </section>
 
         <section className="bg-gray-100 p-6 rounded-xl shadow-inner mt-8">
@@ -74,7 +80,7 @@ const Iupc = () => {
             +8801521773834<br />
             <a href="mailto:mrahman221014@bscse.uiu.ac.bd" className="text-orange-500">mrahman221014@bscse.uiu.ac.bd</a>
           </p>
-          
+
           <p className="text-gray-700 mt-6">
             <strong>Md. Tashin Parvez</strong><br />
             Associate, Competitive Programming Wing<br />
@@ -90,4 +96,4 @@ const Iupc = () => {
     </div>
   );
 };
-export default  Iupc
+export default Iupc
