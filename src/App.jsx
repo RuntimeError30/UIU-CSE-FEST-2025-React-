@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Navbar from './components/Navbar'
 import Events from './components/Events'
+import Organizers from './components/Organizers'
 
 
 
@@ -13,6 +14,7 @@ const App = () => {
       <Hero />
       <About />
       <Events />
+      <Organizers />
 
     </main>
   )
