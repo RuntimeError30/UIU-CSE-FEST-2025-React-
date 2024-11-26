@@ -230,7 +230,7 @@ const Gratitude = () => {
                 name="Akash Kumar Podder"
                 link={`https://www.facebook.com/akash.podder.9256`}
                 role="Outreach and Engagement Member"
-                subRole="Co-Head of PR, UIU App Forum"
+                subRole="Co-Head of Media & Communication, UIU App Forum"
                 imageSrc="/img/akash.jpg"
               />
             </div>
