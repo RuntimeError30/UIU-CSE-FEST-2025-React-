@@ -269,25 +269,17 @@ const Gratitude = () => {
                 imageSrc="/img/shudipto.jpg"
               />
             </div>
-            <div ref={(el) => (sections.current[15] = el)}>
+            {/* <div ref={(el) => (sections.current[15] = el)}>
               <TeamMember
                 name="S. M. Saraban Tohura"
-                link={``}
+                link={`www.linkedin.com/in/saraban-tohura`}
                 role="Media & Communication Member"
                 subRole="Secretary of PR, UIU Robotics Club"
                 imageSrc="/img/sraban.jpg"
               />
-            </div>
-            <div ref={(el) => (sections.current[16] = el)}>
-              <TeamMember
-                name="Fahad Rahman"
-                link={`https://www.facebook.com/fahad.ovi.64/`}
-                role="Media & Communication Member"
-                subRole="Asst. General Secretary, UIU Robotics Club"
-                imageSrc="/img/fahad.jpg"
-              />
-            </div>
-            <div ref={(el) => (sections.current[17] = el)}>
+            </div> */}
+            
+            {/* <div ref={(el) => (sections.current[17] = el)}>
               <TeamMember
                 name="Faria Rakib Borsha"
                 link={`https://www.facebook.com/faria.rakib.borsha`}
@@ -295,14 +287,14 @@ const Gratitude = () => {
                 subRole="General Secretary, UIU Robotics Club"
                 imageSrc="/img/borsha.jpg"
               />
-            </div>
+            </div> */}
 
           </div>
         </section>
         <section className="mb-16">
           <h2 className="font-zentry text-3xl font-bold text-center mb-8 text-orange-500">Outreach and Engagement Team</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div ref={(el) => (sections.current[18] = el)}>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div ref={(el) => (sections.current[15] = el)}>
               <TeamMember
                 name="Samiul Haque Rudra"
                 link={`https://www.facebook.com/rudra.96824`}
@@ -311,7 +303,7 @@ const Gratitude = () => {
                 imageSrc="/img/samiul.jpg"
               />
             </div>
-            <div ref={(el) => (sections.current[19] = el)}>
+            <div ref={(el) => (sections.current[16] = el)}>
               <TeamMember
                 name="Akash Kumar Podder"
                 link={`https://www.facebook.com/akash.podder.9256`}
@@ -320,7 +312,7 @@ const Gratitude = () => {
                 imageSrc="/img/akash.jpg"
               />
             </div>
-            <div ref={(el) => (sections.current[20] = el)} >
+            <div ref={(el) => (sections.current[17] = el)} >
               <TeamMember
                 name="Md. Rashique Hamjah Chowdhury "
                 link={`https://www.facebook.com/Meehal.BD`}
@@ -329,7 +321,7 @@ const Gratitude = () => {
                 imageSrc="/img/rashique.jpg"
               />
             </div>
-            <div ref={(el) => (sections.current[21] = el)}>
+            <div ref={(el) => (sections.current[18] = el)}>
               <TeamMember
                 name="Md.Naimur Rahman"
                 link={`https://www.facebook.com/mdnaimurrahman.navil?mibextid=ZbWKwL`}
@@ -340,16 +332,16 @@ const Gratitude = () => {
             </div>
 
            
-            <div ref={(el) => (sections.current[22] = el)}>
+            <div ref={(el) => (sections.current[19] = el)}>
               <TeamMember
                 name="Ahmed Junaed"
-                link={``}
+                link={`https://www.facebook.com/ahamed.junaed.5?mibextid=ZbWKwL`}
                 role="Outreach and Engagement Member"
                 subRole="President, UIU Robotics Club"
                 imageSrc="/img/junaed.jpg"
               />
             </div>
-            <div ref={(el) => (sections.current[23] = el)}>
+            <div ref={(el) => (sections.current[20] = el)}>
               <TeamMember
                 name="Md. Tanvir Ahmed"
                 link={`https://www.facebook.com/tanvirumanuiu`}
@@ -359,7 +351,15 @@ const Gratitude = () => {
               />
             </div>
 
-
+            <div ref={(el) => (sections.current[21] = el)}>
+              <TeamMember
+                name="Fahad Rahman"
+                link={`https://www.facebook.com/fahad.ovi.64/`}
+                role="Outreach and Engagement Member"
+                subRole="Asst. General Secretary, UIU Robotics Club"
+                imageSrc="/img/fahad.jpg"
+              />
+            </div>
           </div>
         </section>
       </main>
