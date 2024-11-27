@@ -1,92 +1,93 @@
-import './gratitute.css';
+// import './gratitute.css';
 import { gsap } from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import TeamMember from '../components/TeamMember';
 import { useEffect, useRef } from 'react';
-import Scrollbar from "smooth-scrollbar";
+// import Scrollbar from "smooth-scrollbar";
 gsap.registerPlugin(ScrollTrigger);
 const Gratitude = () => {
   const sections = useRef([]);
-  const smoothScrollContainer = useRef(null);
+  //const smoothScrollContainer = useRef(null);
 
-  useEffect(() => {
-    
-    const scrollbar = Scrollbar.init(smoothScrollContainer.current, {
-      damping: 0.08, 
-      thumbMinSize: 20, 
-      renderByPixels: true, 
-      alwaysShowTracks: false,
-    });
-
-    
-    ScrollTrigger.scrollerProxy(smoothScrollContainer.current, {
-      scrollTop(value) {
-        return arguments.length ? (scrollbar.scrollTop = value) : scrollbar.scrollTop;
-      },
-      getBoundingClientRect() {
-        return {
-          top: 0,
-          left: 0,
-          width: window.innerWidth,
-          height: window.innerHeight,
-        };
-      },
-      pinType: smoothScrollContainer.current.style.transform ? "transform" : "fixed",
-    });
-
-    
-    ScrollTrigger.batch(sections.current, {
-      scroller: smoothScrollContainer.current,
-      start: "top 85%",
-      onEnter: (batch) => {
-        gsap.fromTo(
-          batch,
-          { opacity: 0, y: 10 }, 
-          {
-            opacity: 1,
-            y: 0,
-            duration: 1.5, 
-            ease: "power2.out",
-            stagger: 0.3,
-          }
-        );
-      },
-    });
-
-    
-    ScrollTrigger.addEventListener("refresh", () => scrollbar.update());
-    ScrollTrigger.refresh();
-
-   
-    return () => {
-      ScrollTrigger.removeEventListener("refresh", () => scrollbar.update());
-      scrollbar.destroy();
-    };
-  }, []);
   // useEffect(() => {
-  //   gsap.registerPlugin(ScrollTrigger);
+    
+  //   const scrollbar = Scrollbar.init(smoothScrollContainer.current, {
+  //     damping: 0.08, 
+  //     thumbMinSize: 20, 
+  //     renderByPixels: true, 
+  //     alwaysShowTracks: false,
+  //   });
 
+    
+  //   ScrollTrigger.scrollerProxy(smoothScrollContainer.current, {
+  //     scrollTop(value) {
+  //       return arguments.length ? (scrollbar.scrollTop = value) : scrollbar.scrollTop;
+  //     },
+  //     getBoundingClientRect() {
+  //       return {
+  //         top: 0,
+  //         left: 0,
+  //         width: window.innerWidth,
+  //         height: window.innerHeight,
+  //       };
+  //     },
+  //     pinType: smoothScrollContainer.current.style.transform ? "transform" : "fixed",
+  //   });
 
+    
   //   ScrollTrigger.batch(sections.current, {
+  //     scroller: smoothScrollContainer.current,
+  //     start: "top 85%",
   //     onEnter: (batch) => {
   //       gsap.fromTo(
   //         batch,
-  //         { opacity: 0, y: 50 },
+  //         { opacity: 0, y: 10 }, 
   //         {
   //           opacity: 1,
   //           y: 0,
-  //           duration: 0.8,
-  //           ease: "power1.out",
-  //           stagger: 0.2,
+  //           duration: 1.5, 
+  //           ease: "power2.out",
+  //           stagger: 0.3,
   //         }
   //       );
   //     },
-  //     start: "top 85%",
   //   });
-  // }, []);
 
+    
+  //   ScrollTrigger.addEventListener("refresh", () => scrollbar.update());
+  //   ScrollTrigger.refresh();
+
+   
+  //   return () => {
+  //     ScrollTrigger.removeEventListener("refresh", () => scrollbar.update());
+  //     scrollbar.destroy();
+  //   };
+  // }, []);
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+
+    ScrollTrigger.batch(sections.current, {
+      onEnter: (batch) => {
+        gsap.fromTo(
+          batch,
+          { opacity: 0, y: 50 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 0.8,
+            ease: "power1.out",
+            stagger: 0.2,
+          }
+        );
+      },
+      start: "top 85%",
+    });
+  }, []);
+  
   return (
-    <div ref={smoothScrollContainer} style={{ height: "100vh", overflow: "hidden" }} className="min-h-screen  bg-black text-white font-sans">
+    //ref={smoothScrollContainer} style={{ height: "100vh", overflow: "hidden" }} 
+    <div className="min-h-screen  bg-black text-white font-sans">
        
       <main className="container mx-auto px-4 py-12">
       
