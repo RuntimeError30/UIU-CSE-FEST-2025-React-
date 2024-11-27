@@ -2,10 +2,10 @@
 
 const Lfr = () => {
   return (
-    <div className="bg-white min-h-screen p-4 pt-20 text-black">
+    <div className="bg-white min-h-screen p-4 pt-20 font-robert-regular text-black">
       <div className="max-w-7xl mx-auto bg-white p-6 rounded-xl shadow-md">
         <header className="text-center mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-orange-600">
+          <h1 className="text-3xl font-zentry md:text-4xl font-bold text-orange-600">
             UIU CSE Fest 2025 - TrackBots (LFR Competition)
           </h1>
           <p className="text-lg font-semibold text-gray-700 mt-2">
@@ -18,7 +18,7 @@ const Lfr = () => {
         </header>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Summary</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Summary</h2>
           <p className="text-gray-700 mt-4">
             <strong>“TrackBots”</strong>  at UIU CSE Fest 2025, is the Line Following Robot event that offers UIU students an exciting opportunity to gain real-world experience through competition. This event encourages participants to apply theoretical knowledge practically, building skills in robotics and problem-solving.
             Grooming sessions are available to support all UIU teams, providing guidance in teamwork, project presentation, and professional networking. These sessions ensure students are well-prepared for the competition, enhancing their confidence and refining their projects for success. Through this, the UIU Robotics Club is dedicated to empowering students to excel at CSE Fest 2025.
@@ -27,9 +27,9 @@ const Lfr = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Registration Procedure</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration Procedure</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li><strong>Registration Deadline:</strong> 27 December, 2024</li>
+            <li><strong>Registration Deadline: </strong>  27 December, 2024</li>
             <li><strong>Eligibility:</strong> All undergraduate program students from public/private universities are eligible to compete!</li>
             <li><strong>Registration Fee:</strong> 1500 BDT per team</li>
             <li><strong>Team Formation:</strong> Teams of up to 5 members; each participant can only join one team of a segment, i.e. a participant cannot be in two teams that are competing in the same segment.
@@ -38,9 +38,9 @@ const Lfr = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Rulebook</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Rulebook</h2>
 
-          <h3 className="font-semibold text-orange-600 mt-4">A. General Rules</h3>
+          <h3 className="font-semibold font-zentry text-orange-600 mt-4">A. General Rules</h3>
           <ul className="list-disc pl-5 text-gray-700">
             <li>Teams must report on time; late arrivals will not be permitted to participate.</li>
             <li>Robots and teams will undergo an inspection before each round.</li>
@@ -56,7 +56,7 @@ const Lfr = () => {
             <li>Teams are prohibited from using communication tools (e.g., walkie-talkies) for external coordination during the round. Only internal communication between team members in the arena is allowed.</li>
           </ul>
 
-          <h3 className="font-semibold text-orange-600 mt-4">B. Team Specifications</h3>
+          <h3 className="font-semibold font-zentry text-orange-600 mt-4">B. Team Specifications</h3>
           <ul className="list-disc pl-5 text-gray-700">
             <li>Teams may have a maximum of 5 members.</li>
             <li>All participants must be students, with valid identification provided at registration.</li>
@@ -67,7 +67,7 @@ const Lfr = () => {
             <li>Any team member can operate the robot during the competition.</li>
           </ul>
 
-          <h3 className="font-semibold text-orange-600 mt-4">C. Robot Specifications</h3>
+          <h3 className="font-semibold font-zentry text-orange-600 mt-4">C. Robot Specifications</h3>
           <ul className="list-disc pl-5 text-gray-700">
             <li>Robot dimensions must not exceed 20cm x 20cm x 15cm (W x L x H).</li>
             <li>Maximum robot weight is 1 kg.</li>
@@ -83,7 +83,7 @@ const Lfr = () => {
             <li>Modifications (e.g., adding/removing parts) are not allowed after the robot is submitted. Any mechanical changes before submission should be done outside the competition area.</li>
           </ul>
 
-          <h3 className="font-semibold text-orange-600 mt-4">D. Arena Specifications</h3>
+          <h3 className="font-semibold font-zentry text-orange-600 mt-4">D. Arena Specifications</h3>
           <ul className="list-disc pl-5 text-gray-700">
             <li>The first-round arena dimensions are TBD.</li>
             <li>The arena will feature a black line on a white background or vice versa.</li>
@@ -94,24 +94,24 @@ const Lfr = () => {
             <li>Obstacles may include bridges, bumps, and slopes up to 15°.</li>
           </ul>
 
-          <h3 className="font-semibold text-orange-600 mt-4">E. Gameplay Plan</h3>
+          <h3 className="font-semibold font-zentry text-orange-600 mt-4">E. Gameplay Plan</h3>
           <ul className="list-disc pl-5 text-gray-700">
             <li>The specific gameplay plan will be provided at a later date, including any rules regarding timed rounds, special challenges, or bonus points.</li>
           </ul>
 
-          <h3 className="font-semibold text-orange-600 mt-4">F. Common Rules for Participants</h3>
+          <h3 className="font-semibold font-zentry text-orange-600 mt-4">F. Common Rules for Participants</h3>
           <ul className="list-disc pl-5 text-gray-700">
             <li>Additional common rules, such as behavior expectations during the event, will be clarified at the start of the competition.</li>
           </ul>
 
-          <h3 className="font-semibold text-orange-600 mt-4">G. Scoring</h3>
+          <h3 className="font-semibold font-zentry text-orange-600 mt-4">G. Scoring</h3>
           <ul className="list-disc pl-5 text-gray-700">
             <li>Detailed scoring criteria will be announced before the competition. It will include how points are awarded for completing checkpoints, speed, and accuracy.</li>
             <li>Points may be awarded for completing additional tasks, bonus checkpoints, or achieving exceptional performance.</li>
             <li>Penalties may be applied for exceeding time limits or violating specific rules (e.g., robot leaving the track).</li>
           </ul>
 
-          <h3 className="font-semibold text-orange-600 mt-4">H. Deciding Factors</h3>
+          <h3 className="font-semibold font-zentry text-orange-600 mt-4">H. Deciding Factors</h3>
           <ul className="list-disc pl-5 text-gray-700">
             <li>The team with the highest cumulative score from both rounds wins.</li>
             <li>If scores are tied, the team with the most perfect runs wins.</li>
@@ -121,7 +121,7 @@ const Lfr = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Prize Money</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Prize Money</h2>
           <ul className="list-decimal pl-5 text-gray-700 mt-4">
             <li><strong>First Prize:</strong> 25,000 BDT</li>
             <li><strong>Second Prize:</strong> 15,000 BDT</li>
@@ -129,7 +129,7 @@ const Lfr = () => {
           </ul>
         </section>
         <section className="mb-8">
-          <h3 className="font-semibold text-orange-600 mt-4">Objectives</h3>
+          <h3 className="font-semibold font-zentry text-orange-600 mt-4">Objectives</h3>
           <ul className="list-disc pl-5 text-gray-700">
             <li>
               <span className="font-semibold">Enhance Problem-Solving Skills:</span>By tackling track obstacles and navigating varied pathways, participants develop and refine their problem-solving techniques.
@@ -144,7 +144,7 @@ const Lfr = () => {
           </ul>
         </section>
         <section className="bg-gray-100 p-6 rounded-xl shadow-inner mt-8">
-          <h2 className="text-xl font-semibold text-orange-600">For any queries</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">For any queries</h2>
           <p className="text-gray-700 mt-4">
             <strong>Fahad Rahman</strong><br />
             Secretary of Event, UIU Robotics Club<br />

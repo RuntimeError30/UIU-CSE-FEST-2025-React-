@@ -2,10 +2,10 @@
 
 const ProjectShow = () => {
   return (
-    <div className="bg-white min-h-screen p-4 pt-20 text-black">
+    <div className="bg-white min-h-screen p-4 pt-20 font-robert-regular text-black">
       <div className="max-w-7xl mx-auto bg-white p-6 rounded-xl shadow-md">
         <header className="text-center mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-orange-600">
+          <h1 className="text-3xl font-zentry md:text-4xl font-bold text-orange-600">
             UIU CSE Fest 2025 - Project Show
           </h1>
           <p className="text-lg text-gray-600 mt-2">University Students and Recent Graduates</p>
@@ -15,14 +15,14 @@ const ProjectShow = () => {
         </header>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Overview</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Overview</h2>
           <p className="text-gray-700 mt-4">
             The UIU CSE Fest 2025 offers university students an exciting opportunity to showcase their innovative software projects. In today’s rapidly evolving world, advancements in information technology play a key role in creating sustainable solutions. This event invites students to present impactful projects that reflect adaptability, creativity, and diverse skill sets. Projects can span various fields in information technology, science, and engineering, and may be developed solely in software, or as hybrid systems integrating both software and hardware.
           </p>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Registration</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
             <li><strong>Registration Deadline:</strong> 20 December 2024</li>
             <li><strong>Eligibility:</strong> Open to university students and recent graduates in Bangladesh (graduated within the past year)</li>
@@ -32,7 +32,7 @@ const ProjectShow = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Prizes</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Prizes</h2>
           <ul className="list-decimal pl-5 text-gray-700 mt-4">
             <li><strong>First Prize:</strong> 50,000 BDT</li>
             <li><strong>Second Prize:</strong> 30,000 BDT</li>
@@ -43,7 +43,7 @@ const ProjectShow = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Project Domains</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Project Domains</h2>
           <p className="text-gray-700 mt-4">
             A fully implemented project with functional features that addresses a specific problem and provides a solution through a practical application.
             Potential topic areas include, but are not limited to:
@@ -64,7 +64,7 @@ const ProjectShow = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Submission Guidelines</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Submission Guidelines</h2>
           <p className="text-gray-700 mt-4">The project synopsis should be concise, not exceeding 400 words, and include the following elements:</p>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
             <li><strong>Title:</strong> Clearly state the title of the project.</li>
@@ -93,7 +93,7 @@ const ProjectShow = () => {
           </ul>
         </section>
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Video Presentation:
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Video Presentation:
           </h2>
           <p className="text-gray-700 mt-4">
             Include a 2-3 minute video highlighting the project&apos;s features, focusing on implemented functionalities and practical applications. Upload the video to YouTube as an unlisted video and, if possible, share the link along with the project synopsis for reference.
@@ -101,7 +101,7 @@ const ProjectShow = () => {
           </p>
         </section>
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Judgment Criteria</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Judgment Criteria</h2>
           <ol className="list-decimal pl-5 text-gray-700 mt-4">
             <li>
               <strong>Relevance:</strong>
@@ -140,12 +140,12 @@ const ProjectShow = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Registration Link</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration Link</h2>
           <h1>Portal will be open Soon</h1>
         </section>
 
         <section className="bg-gray-100 p-6 rounded-xl shadow-inner mt-8">
-          <h2 className="text-xl font-semibold text-orange-600">For any queries</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">For any queries</h2>
           <p className="text-gray-700 mt-4">
             <strong>Abdullah Al Masud Bhuiyan</strong><br />
             President<br />

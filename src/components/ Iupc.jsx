@@ -2,20 +2,20 @@
 
 const Iupc = () => {
   return (
-    <div className="bg-white min-h-screen p-4 pt-14 text-black">
+    <div className="bg-white min-h-screen p-4 pt-14 font-robert-regular text-black">
       <div className="max-w-7xl mx-auto  bg-white p-6 rounded-xl shadow-md">
         <header className="text-center mb-8 ">
-          <h1 className="text-3xl  md:text-4xl font-bold text-orange-600">
+          <h1 className="text-3xl font-zentry  md:text-4xl font-bold text-orange-600">
             UIUIUPC - UIU <br className="md:hidden"/> Inter-University Programming Contest 2025
           </h1>
-          <p className="text-lg text-gray-600 mt-2">University</p>
+          <p className="text-lg font-robert-medium text-gray-600 mt-2">University</p>
           <p className="text-lg font-semibold text-gray-700 mt-2">
             Last Registration: Dec. 20, 2024
           </p>
         </header>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">About the Event</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">About the Event</h2>
           <p className="text-gray-700 mt-4">
             The Department of Computer Science and Engineering (CSE) at United International University (UIU) is thrilled to host the 1st UIU Inter-University Programming Contest 2025, set to take place on <span className="font-bold">January 17-18, 2025!</span>  This exciting event will unite talented programmers from universities across Bangladesh, offering a challenging platform to demonstrate their programming and problem-solving prowess.
             <br />
@@ -27,7 +27,7 @@ const Iupc = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Event Details</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Event Details</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
             <li><strong>Eligibility:</strong> Open to university students and IOI (International Olympiad in Informatics) students.
             </li>
@@ -37,12 +37,12 @@ const Iupc = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Registration Fee</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration Fee</h2>
           <p className="text-xl font-bold text-orange-500 mt-2">7000 BDT</p>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Event Timeline</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Event Timeline</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
             <li>Registration Closes: December 20, 2024</li>
             <li>Shortlisted Teams Announcement: December 30, 2024</li>
@@ -53,7 +53,7 @@ const Iupc = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Prizes</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Prizes</h2>
           <ul className="list-decimal pl-5 text-gray-700 mt-4">
             <li>First Prize: 150,000 BDT</li>
             <li>Second Prize: 100,000 BDT</li>
@@ -63,13 +63,13 @@ const Iupc = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Registration Link</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration Link</h2>
 
-          <h1>Portal will be open Soon</h1>
+          <h1 >Portal will be open Soon</h1>
         </section>
 
         <section className="bg-gray-100 p-6 rounded-xl shadow-inner mt-8">
-          <h2 className="text-xl font-semibold text-orange-600">For any queries</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">For any queries</h2>
           <p className="text-gray-700 mt-4">
             <strong>Md. Mostafizur Rahman</strong><br />
             Head, Competitive Programming Wing<br />

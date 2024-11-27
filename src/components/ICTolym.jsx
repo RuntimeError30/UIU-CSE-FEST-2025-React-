@@ -2,10 +2,10 @@
 
 const ICTolym = () => {
   return (
-    <div className="bg-white min-h-screen p-4 pt-20 text-black">
+    <div className="bg-white min-h-screen p-4 pt-20 font-robert-regular text-black">
       <div className="max-w-7xl mx-auto bg-white p-6 rounded-xl shadow-md">
         <header className="text-center mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-orange-600">
+          <h1 className="text-3xl font-zentry md:text-4xl font-bold text-orange-600">
             ICT Olympiad 2025
           </h1>
           <p className="text-lg text-gray-600 mt-2">College</p>
@@ -15,7 +15,7 @@ const ICTolym = () => {
         </header>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Overview</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Overview</h2>
           <p className="text-gray-700 mt-4">
 
             The <strong> ICT Olympiad</strong> offers a unique opportunity for college students to enhance their knowledge and appreciation of Information and Communication Technology (ICT). The primary goal is to spark a passion for science and technology among young minds, motivating them to excel in the field. This competition is designed to cultivate curiosity, and creativity, providing an engaging and interactive experience that encourages students to discover the vast potential within ICT.
@@ -24,7 +24,7 @@ const ICTolym = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Registration</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
             <li><strong>Registration Deadline:</strong> 27 December 2024</li>
             <li><strong>Eligibility:</strong> College students</li>
@@ -33,7 +33,7 @@ const ICTolym = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Prizes</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Prizes</h2>
           <ul className="list-decimal pl-5 text-gray-700 mt-4">
             <li>First Prize: 100,000 BDT</li>
             <li>Second Prize: 50,000 BDT</li>
@@ -45,7 +45,7 @@ const ICTolym = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Syllabus</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Syllabus</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
             <li>Basic Math</li>
             <li>Physics</li>
@@ -55,19 +55,19 @@ const ICTolym = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Join Us in Enhancing Your ICT Skills!</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Join Us in Enhancing Your ICT Skills!</h2>
           <p className="text-gray-700 mt-4">
-            The ICT Olympiad is more than just a competition—it's a chance to deepen your knowledge, test your skills, and showcase your talent in ICT. Register now and get ready to compete for prestigious prizes while strengthening your understanding of the ICT field!
+            The ICT Olympiad is more than just a competition—it&apos;s a chance to deepen your knowledge, test your skills, and showcase your talent in ICT. Register now and get ready to compete for prestigious prizes while strengthening your understanding of the ICT field!
           </p>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-orange-600">Registration Link</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration Link</h2>
           <h1>Portal will be open Soon</h1>
         </section>
 
         <section className="bg-gray-100 p-6 rounded-xl shadow-inner mt-8">
-          <h2 className="text-xl font-semibold text-orange-600">For any queries</h2>
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">For any queries</h2>
           <p className="text-gray-700 mt-4">
             <strong>Abdullah Al Masud Bhuiyan</strong><br />
             President<br />
